@@ -74,7 +74,7 @@ p {
 
 
 .header {
-    background: radial-gradient(#fff, #ffd6d6, );
+    background: radial-gradient(#fff, #ffd6d6);
 }
 
 header .row {
@@ -172,6 +172,74 @@ header .row {
     transform: translateY(-5px);
 }
 
-section{
+section {
     margin-top: 50px;
+}
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.offerImg {
+    padding: 50px;
+}
+
+small {
+    color: #555;
+}
+
+.testimonial {
+    padding-top: 100px;
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial .col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+.fa-quote-left {
+    font-size: 34px;
+    color: #ff523b;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+width: 100%;
+cursor: pointer;
+filter: grayscale(100%);
+transition: 0.3s;
+}
+.col-5 img:hover{
+    filter: grayscale(0);
 }
