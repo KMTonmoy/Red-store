@@ -34,6 +34,10 @@ nav ul {
     background-color: transparent;
 }
 
+#cartIcon {
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
     color: #555;
@@ -49,6 +53,10 @@ p {
     padding-left: 25px;
     padding-right: 25px;
 
+}
+
+.btnCar {
+    border: none
 }
 
 .row {
