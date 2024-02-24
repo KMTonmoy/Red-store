@@ -171,3 +171,7 @@ header .row {
 .col-4:hover {
     transform: translateY(-5px);
 }
+
+section{
+    margin-top: 50px;
+}
